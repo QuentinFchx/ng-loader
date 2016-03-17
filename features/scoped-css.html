@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Scoped CSS | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../features/postcss.html" />
+    
+    
+    <link rel="prev" href="../features/es2015.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.2"
+        data-chapter-title="Scoped CSS"
+        data-filepath="features/scoped-css.md"
+        data-basepath=".."
+        data-revision="Thu Mar 17 2016 01:18:37 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Getting Started</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="start/spec.html">
+            
+                
+                    <a href="../start/spec.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Vue Component Spec
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="start/tutorial.html">
+            
+                
+                    <a href="../start/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Basic Tutorial
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Features</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="features/es2015.html">
+            
+                
+                    <a href="../features/es2015.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        ES2015 and Babel
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="features/scoped-css.html">
+            
+                
+                    <a href="../features/scoped-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Scoped CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="features/postcss.html">
+            
+                
+                    <a href="../features/postcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        PostCSS and Autoprefixer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="features/hot-reload.html">
+            
+                
+                    <a href="../features/hot-reload.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Hot Reload
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Configurations</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="configurations/pre-processors.html">
+            
+                
+                    <a href="../configurations/pre-processors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Pre-Processors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="configurations/asset-url.html">
+            
+                
+                    <a href="../configurations/asset-url.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Asset URL Handling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="configurations/advanced.html">
+            
+                
+                    <a href="../configurations/advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Advanced Loader Configuration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="configurations/extract-css.html">
+            
+                
+                    <a href="../configurations/extract-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Extracting CSS File
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Workflow</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="workflow/production.html">
+            
+                
+                    <a href="../workflow/production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Production Build
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="workflow/linting.html">
+            
+                
+                    <a href="../workflow/linting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Linting
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="workflow/testing.html">
+            
+                
+                    <a href="../workflow/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Testing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="workflow/testing-with-mocks.html">
+            
+                
+                    <a href="../workflow/testing-with-mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Testing with Mocks
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="options.html">
+            
+                
+                    <a href="../options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Options Reference
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="scoped-css">Scoped CSS</h1>
+<p>When a <code>&lt;style&gt;</code> tag has the <code>scoped</code> attribute, its CSS will apply to elements of the current component only. This is similar to the style encapsulation found in Shadow DOM. It comes with some caveats, but doesn&apos;t require any polyfills. It is achieved by using PostCSS to transform the following:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+<span class="hljs-class">.example</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+}</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;example&quot;</span>&gt;</span>hi<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+</code></pre>
+<p>Into the following:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+<span class="hljs-class">.example</span><span class="hljs-attr_selector">[_v-f3f3eg9]</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+}</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;example&quot;</span> <span class="hljs-attribute">_v-f3f3eg9</span>&gt;</span>hi<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+</code></pre>
+<h4 id="notes">Notes</h4>
+<ol>
+<li><p>You can include both scoped and non-scoped styles in the same component:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+<span class="hljs-comment">/* global styles */</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+<span class="hljs-comment">/* local styles */</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+</code></pre>
+</li>
+<li><p>A child component&apos;s root node will be affected by both the parent&apos;s scoped CSS and the child&apos;s scoped CSS.</p>
+</li>
+<li><p>Partials are not affected by scoped styles.</p>
+</li>
+<li><p><strong>Be careful with descendant selectors in recursive components!</strong> For a CSS rule with the selector <code>.a .b</code>, if the element that matches <code>.a</code> contains a recursive child component, then all <code>.b</code> in that child component will be matched by the rule.</p>
+</li>
+</ol>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../features/es2015.html" class="navigation navigation-prev " aria-label="Previous page: ES2015 and Babel"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../features/postcss.html" class="navigation navigation-next " aria-label="Next page: PostCSS and Autoprefixer"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/vuejs/vue-loader/tree/master/docs","label":"Edit This Page"},"github":{"url":"https://github.com/vuejs/vue-loader/"},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

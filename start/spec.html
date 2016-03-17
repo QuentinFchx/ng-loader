@@ -1,0 +1,523 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Vue Component Spec | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../start/tutorial.html" />
+    
+    
+    <link rel="prev" href="../index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.1"
+        data-chapter-title="Vue Component Spec"
+        data-filepath="start/spec.md"
+        data-basepath=".."
+        data-revision="Thu Mar 17 2016 01:18:37 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Getting Started</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.1" data-path="start/spec.html">
+            
+                
+                    <a href="../start/spec.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Vue Component Spec
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="start/tutorial.html">
+            
+                
+                    <a href="../start/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Basic Tutorial
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Features</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="features/es2015.html">
+            
+                
+                    <a href="../features/es2015.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        ES2015 and Babel
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="features/scoped-css.html">
+            
+                
+                    <a href="../features/scoped-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Scoped CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="features/postcss.html">
+            
+                
+                    <a href="../features/postcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        PostCSS and Autoprefixer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="features/hot-reload.html">
+            
+                
+                    <a href="../features/hot-reload.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Hot Reload
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Configurations</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="configurations/pre-processors.html">
+            
+                
+                    <a href="../configurations/pre-processors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Pre-Processors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="configurations/asset-url.html">
+            
+                
+                    <a href="../configurations/asset-url.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Asset URL Handling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="configurations/advanced.html">
+            
+                
+                    <a href="../configurations/advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Advanced Loader Configuration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="configurations/extract-css.html">
+            
+                
+                    <a href="../configurations/extract-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Extracting CSS File
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Workflow</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="workflow/production.html">
+            
+                
+                    <a href="../workflow/production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Production Build
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="workflow/linting.html">
+            
+                
+                    <a href="../workflow/linting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Linting
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="workflow/testing.html">
+            
+                
+                    <a href="../workflow/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Testing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="workflow/testing-with-mocks.html">
+            
+                
+                    <a href="../workflow/testing-with-mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Testing with Mocks
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="options.html">
+            
+                
+                    <a href="../options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Options Reference
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="vue-component-spec">Vue Component Spec</h1>
+<p>A <code>*.vue</code> file is a custom file format that uses HTML-like syntax to describe a Vue component. Each <code>*.vue</code> file consists of three types of top-level language blocks: <code>&lt;template&gt;</code>, <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code>:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;example&quot;</span>&gt;</span>{{ msg }}<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+  data () {
+    <span class="hljs-keyword">return</span> {
+      msg: <span class="hljs-string">&apos;Hello world!&apos;</span>
+    }
+  }
+}
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+<span class="hljs-class">.example</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+}</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+</code></pre>
+<p><code>vue-loader</code> will parse the file, extract each language block, pipe them through other loaders if necessary, and finally assemble them back into a CommonJS module whose <code>module.exports</code> is a Vue.js component options object.</p>
+<p><code>vue-loader</code> supports using non-default languages, such as CSS pre-processors and compile-to-HTML template languages, by specifying the <code>lang</code> attribute for a language block. For example, you can use SASS for the style of your component like this:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">&quot;sass&quot;</span>&gt;</span><span class="css">
+  <span class="hljs-comment">/* write SASS! */</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+</code></pre>
+<p>More details can be found in <a href="../configurations/pre-processors.html">Using Pre-Processors</a>.</p>
+<h3 id="language-blocks">Language Blocks</h3>
+<h4 id="template"><code>&lt;template&gt;</code></h4>
+<ul>
+<li><p>Default language: <code>html</code>.</p>
+</li>
+<li><p>Each <code>*.vue</code> file can contain at most one <code>&lt;template&gt;</code> block at a time.</p>
+</li>
+<li><p>Contents will be extracted as a string and used as the <code>template</code> option for the compiled Vue component. </p>
+</li>
+</ul>
+<h4 id="script"><code>&lt;script&gt;</code></h4>
+<ul>
+<li><p>Default language: <code>js</code> (ES2015 is supported by default via Babel).</p>
+</li>
+<li><p>Each <code>*.vue</code> file can contain at most one <code>&lt;script&gt;</code> block at a time.</p>
+</li>
+<li><p>The script is executed in a CommonJS like environment (just like a normal <code>.js</code> module bundled via Webpack), which means you can <code>require()</code> other dependencies. And because ES2015 is supported by default, you can also use ES2015 <code>import</code> and <code>export</code> syntax.</p>
+</li>
+<li><p>The script must export a Vue.js component options object. Exporting an extended constructor created by <code>Vue.extend()</code> is also supported, but a plain object is preferred.</p>
+</li>
+</ul>
+<h4 id="style"><code>&lt;style&gt;</code></h4>
+<ul>
+<li><p>Default Language: <code>css</code>.</p>
+</li>
+<li><p>Multiple <code>&lt;style&gt;</code> tags are supported in a single <code>*.vue</code> file.</p>
+</li>
+<li><p>By default, contents will be extracted and dynamically inserted into the document&apos;s <code>&lt;head&gt;</code> as an actual <code>&lt;style&gt;</code> tag using <code>style-loader</code>. It&apos;s also possible to <a href="../configurations/extract-css.html">configure Webpack so that all styles in all components are extracted into a single CSS file</a>.</p>
+</li>
+</ul>
+<h3 id="src-imports">Src Imports</h3>
+<p>If you prefer splitting up your <code>*.vue</code> components into multiple files, you can use the <code>src</code> attribute to import an external file for a language block:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;./template.html&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;./style.css&quot;</span>&gt;</span><span class="css"></span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;./script.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p>Beware that <code>src</code> imports follow the same path resolution rules to CommonJS <code>require()</code> calls, which means for relative paths you need to start with <code>./</code>, and you can import resources directly from installed NPM packages, e.g:</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- import a file from the installed &quot;todomvc-app-css&quot; npm package --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;todomvc-app-css/index.css&quot;</span>&gt;</span><span class="css">
+</span></code></pre>
+<h3 id="syntax-highlighting">Syntax Highlighting</h3>
+<p>Currently there are syntax highlighting support for <a href="https://github.com/vuejs/vue-syntax-highlight" target="_blank">Sublime Text</a>, <a href="https://atom.io/packages/language-vue" target="_blank">Atom</a>, <a href="https://github.com/posva/vim-vue" target="_blank">Vim</a>, <a href="https://marketplace.visualstudio.com/items/liuji-jim.vue" target="_blank">Visual Studio Code</a> and <a href="https://github.com/pandao/brackets-vue" target="_blank">Brackets</a>. Contributions for other editors/IDEs are highly appreciated! If you are not using any pre-processors in Vue components, you can also get by by treating <code>*.vue</code> files as HTML in your editor.</p>
+<h3 id="comments">Comments</h3>
+<p>Inside each block you shall use the comment syntax of the language being used (HTML, CSS, JavaScript, Jade, etc). For top-level comments, use HTML comment syntax: <code>&lt;!-- comment contents here --&gt;</code></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../start/tutorial.html" class="navigation navigation-next " aria-label="Next page: Basic Tutorial"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/vuejs/vue-loader/tree/master/docs","label":"Edit This Page"},"github":{"url":"https://github.com/vuejs/vue-loader/"},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Hot Reload | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../configurations/pre-processors.html" />
+    
+    
+    <link rel="prev" href="../features/postcss.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.4"
+        data-chapter-title="Hot Reload"
+        data-filepath="features/hot-reload.md"
+        data-basepath=".."
+        data-revision="Thu Mar 17 2016 01:18:37 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Getting Started</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="start/spec.html">
+            
+                
+                    <a href="../start/spec.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Vue Component Spec
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="start/tutorial.html">
+            
+                
+                    <a href="../start/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Basic Tutorial
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Features</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="features/es2015.html">
+            
+                
+                    <a href="../features/es2015.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        ES2015 and Babel
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="features/scoped-css.html">
+            
+                
+                    <a href="../features/scoped-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Scoped CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="features/postcss.html">
+            
+                
+                    <a href="../features/postcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        PostCSS and Autoprefixer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.4" data-path="features/hot-reload.html">
+            
+                
+                    <a href="../features/hot-reload.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Hot Reload
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Configurations</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="configurations/pre-processors.html">
+            
+                
+                    <a href="../configurations/pre-processors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Pre-Processors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="configurations/asset-url.html">
+            
+                
+                    <a href="../configurations/asset-url.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Asset URL Handling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="configurations/advanced.html">
+            
+                
+                    <a href="../configurations/advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Advanced Loader Configuration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="configurations/extract-css.html">
+            
+                
+                    <a href="../configurations/extract-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Extracting CSS File
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Workflow</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="workflow/production.html">
+            
+                
+                    <a href="../workflow/production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Production Build
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="workflow/linting.html">
+            
+                
+                    <a href="../workflow/linting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Linting
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="workflow/testing.html">
+            
+                
+                    <a href="../workflow/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Testing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="workflow/testing-with-mocks.html">
+            
+                
+                    <a href="../workflow/testing-with-mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Testing with Mocks
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="options.html">
+            
+                
+                    <a href="../options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Options Reference
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="hot-reload">Hot Reload</h1>
+<p>&quot;Hot Reload&quot; is not simply reloading the page when you edit a file. With hot reload enabled, when you edit a <code>*.vue</code> file, all instances of that component will be swapped in <strong>without reloading the page</strong>. It even preserves the current state of your app and these swapped components! This dramatically improves the development experience when you are tweaking the templates or styling of your components.</p>
+<p><img src="http://blog.evanyou.me/images/vue-hot.gif" alt="hot-reload"></p>
+<h3 id="enabling-hot-reload">Enabling Hot Reload</h3>
+<p>The easiest setup for enabling hot reload is what we outlined in the <a href="../start/tutorial.html">basic tutorial</a>:</p>
+<pre><code class="lang-js"><span class="hljs-comment">// package.json</span>
+...
+<span class="hljs-string">&quot;scripts&quot;</span>: {
+  <span class="hljs-string">&quot;dev&quot;</span>: <span class="hljs-string">&quot;webpack-dev-server --inline --hot&quot;</span>
+}
+...
+</code></pre>
+<p>This is assuming that you are serving the same <code>index.html</code> from the root of your project. By default, Webpack dev server uses the current working directory as its content base and serves all static files in the directory.</p>
+<p>Run <code>npm run dev</code> and the static app will be served at <code>http://localhost:8080</code>.</p>
+<h3 id="hot-reload-notes">Hot Reload Notes</h3>
+<ul>
+<li><p>When a component is hot-reloaded, its current state is preserved. However, the component itself is destroyed and recreated, so all of its lifecycle hooks will be called accordingly. Make sure to properly teardown any side effects in your lifecycle hooks.</p>
+</li>
+<li><p>Private state for child components of a hot-reloaded component is not guaranteed to be preserved across reloads.</p>
+</li>
+<li><p>A root Vue instance or a manually mounted instance cannot be hot-reloaded. It will always force a full reload.</p>
+</li>
+</ul>
+<h3 id="configuration-tips">Configuration Tips</h3>
+<ul>
+<li><p>You can use the <code>--port</code> option to serve at a different port.</p>
+</li>
+<li><p>If your file structure is different, you will have to configure <code>output.publicPath</code> in your Webpack config and the <code>--content-base</code> option of your webpack-dev-server command accordingly.</p>
+</li>
+<li><p>If you are using the HTML5 history API (for example with <code>vue-router</code>), you will also want to add the <code>--history-api-fallback</code> option.</p>
+</li>
+<li><p>Consult the <a href="https://webpack.github.io/docs/webpack-dev-server.html" target="_blank">Webpack dev server documentation</a> for advanced topics such as combining the dev server with another backend server.</p>
+</li>
+<li><p>Finally, if you have an existing <a href="http://expressjs.com/en/index.html" target="_blank">Express</a> based Node.js backend, you can just add the <a href="https://webpack.github.io/docs/webpack-dev-middleware.html" target="_blank">Webpack dev middleware</a> to serve your webpack bundle.</p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../features/postcss.html" class="navigation navigation-prev " aria-label="Previous page: PostCSS and Autoprefixer"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../configurations/pre-processors.html" class="navigation navigation-next " aria-label="Next page: Pre-Processors"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/vuejs/vue-loader/tree/master/docs","label":"Edit This Page"},"github":{"url":"https://github.com/vuejs/vue-loader/"},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

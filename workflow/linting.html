@@ -1,0 +1,501 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Linting | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../workflow/testing.html" />
+    
+    
+    <link rel="prev" href="../workflow/production.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="4.2"
+        data-chapter-title="Linting"
+        data-filepath="workflow/linting.md"
+        data-basepath=".."
+        data-revision="Thu Mar 17 2016 01:18:37 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> Getting Started</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="start/spec.html">
+            
+                
+                    <a href="../start/spec.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Vue Component Spec
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="start/tutorial.html">
+            
+                
+                    <a href="../start/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Basic Tutorial
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> Features</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="features/es2015.html">
+            
+                
+                    <a href="../features/es2015.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        ES2015 and Babel
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="features/scoped-css.html">
+            
+                
+                    <a href="../features/scoped-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Scoped CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="features/postcss.html">
+            
+                
+                    <a href="../features/postcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        PostCSS and Autoprefixer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="features/hot-reload.html">
+            
+                
+                    <a href="../features/hot-reload.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Hot Reload
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Configurations</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="configurations/pre-processors.html">
+            
+                
+                    <a href="../configurations/pre-processors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Pre-Processors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="configurations/asset-url.html">
+            
+                
+                    <a href="../configurations/asset-url.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Asset URL Handling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="configurations/advanced.html">
+            
+                
+                    <a href="../configurations/advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Advanced Loader Configuration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="configurations/extract-css.html">
+            
+                
+                    <a href="../configurations/extract-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Extracting CSS File
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> Workflow</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="workflow/production.html">
+            
+                
+                    <a href="../workflow/production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Production Build
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.2" data-path="workflow/linting.html">
+            
+                
+                    <a href="../workflow/linting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Linting
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="workflow/testing.html">
+            
+                
+                    <a href="../workflow/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Testing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="workflow/testing-with-mocks.html">
+            
+                
+                    <a href="../workflow/testing-with-mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Testing with Mocks
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="options.html">
+            
+                
+                    <a href="../options.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Options Reference
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="linting">Linting</h1>
+<p>You may have been wondering how do you lint your code inside <code>*.vue</code> files, since they are not JavaScript. We will assume you are using <a href="http://eslint.org/" target="_blank">ESLint</a> (if you are not, you should!).</p>
+<p>You will also need the <a href="https://github.com/BenoitZugmeyer/eslint-plugin-html" target="_blank">eslint-html-plugin</a> with supports extracting and linting the JavaScript inside <code>*.vue</code> files.</p>
+<p>Make sure to include the plugin in your ESLint config:</p>
+<pre><code class="lang-json"><span class="hljs-string">&quot;plugins&quot;</span>: [
+  <span class="hljs-string">&quot;html&quot;</span>
+]
+</code></pre>
+<p>Then from the command line:</p>
+<pre><code class="lang-bash">eslint --ext js,vue MyComponent.vue
+</code></pre>
+<p>Another option is using <a href="https://github.com/MoOx/eslint-loader" target="_blank">eslint-loader</a> so that your <code>*.vue</code> files are automatically linted on save during development:</p>
+<pre><code class="lang-bash">npm install eslint eslint-loader --save-dev
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// webpack.config.js</span>
+<span class="hljs-built_in">module</span>.exports = {
+  <span class="hljs-comment">// ... other options</span>
+  <span class="hljs-built_in">module</span>: {
+    loaders: [
+      {
+        test: <span class="hljs-regexp">/.vue$/</span>,
+        loader: <span class="hljs-string">&apos;vue!eslint&apos;</span>
+      }
+    ]
+  }
+}
+</code></pre>
+<p>Note that Webpack loader chains are applied <strong>right-first</strong>. Make sure to apply <code>eslint</code> before <code>vue</code> so we are linting the pre-compile source code.</p>
+<p>One thing we need to consider is using third party <code>*.vue</code> components shipped in NPM packages. In such case, we want to use <code>vue-loader</code> to process the third party component, but do not want to lint it. We can separate the linting into Webpack&apos;s <a href="https://webpack.github.io/docs/loaders.html#loader-order" target="_blank">preLoaders</a>:</p>
+<pre><code class="lang-js"><span class="hljs-comment">// webpack.config.js</span>
+<span class="hljs-built_in">module</span>.exports = {
+  <span class="hljs-comment">// ... other options</span>
+  <span class="hljs-built_in">module</span>: {
+    <span class="hljs-comment">// only lint local *.vue files</span>
+    preLoaders: [
+      {
+        test: <span class="hljs-regexp">/.vue$/</span>,
+        loader: <span class="hljs-string">&apos;eslint&apos;</span>,
+        exclude: <span class="hljs-regexp">/node_modules/</span>
+      }
+    ],
+    <span class="hljs-comment">// but use vue-loader for all *.vue files</span>
+    loaders: [
+      {
+        test: <span class="hljs-regexp">/.vue$/</span>,
+        loader: <span class="hljs-string">&apos;vue&apos;</span>
+      }
+    ]
+  }
+}
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../workflow/production.html" class="navigation navigation-prev " aria-label="Previous page: Production Build"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../workflow/testing.html" class="navigation navigation-next " aria-label="Next page: Testing"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/vuejs/vue-loader/tree/master/docs","label":"Edit This Page"},"github":{"url":"https://github.com/vuejs/vue-loader/"},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
