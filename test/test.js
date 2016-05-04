@@ -50,6 +50,7 @@ describe('vue-loader', function () {
       expect(stats.compilation.errors).to.be.empty
       getFile('test.build.js', function (data) {
         jsdom.env({
+          virtualConsole: jsdom.createVirtualConsole().sendTo(console),
           html: testHTML,
           src: [data],
           done: function (err, window) {
@@ -63,6 +64,16 @@ describe('vue-loader', function () {
       })
     })
   }
+
+  it('ng', function (done) {
+    test({
+      entry: './test/fixtures/ng.js'
+    }, function (window) {
+      done()
+    })
+  })
+
+  return;
 
   it('basic', function (done) {
     test({
